@@ -1,7 +1,7 @@
 -- Create the 'Authors' table
 CREATE TABLE Authors (
     author_id INT PRIMARY KEY,
-    author_name VARCHAR(255) NOT NULL
+    author_name VARCHAR(215) NOT NULL
 );
 
 -- Create the 'Books' table
@@ -17,9 +17,9 @@ CREATE TABLE Books (
 -- Create the 'Customers' table
 CREATE TABLE Customers (
     customer_id INT PRIMARY KEY,
-    customer_name VARCHAR(255) NOT NULL,
-    email_address VARCHAR(255) NOT NULL,
-    address VARCHAR(255)
+    customer_name VARCHAR(215) NOT NULL,
+    email VARCHAR(215) NOT NULL,
+    address TEXT
 );
 
 -- Create the 'Orders' table
